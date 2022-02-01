@@ -121,6 +121,7 @@ public class FontViewer implements ActionListener {
          }
       });
       EffectsPanel.add(CapsBox);
+      CapsBox.setEnabled(false);
    }
 
    public static void main (String [] args){
